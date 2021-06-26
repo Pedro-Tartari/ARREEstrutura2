@@ -3,12 +3,12 @@
 ________________________
 
  - Conceito
- - [Bubble](##bublle-sort) 
- - [Selection](##selection-sort) 
- - [Insertion](##insertion-sort)
- - [Quick](##quick-sort)
- - [Comparações](##comparacoes)
- - [Resultado](##resultado)
+ - [Bubble](#bublle-sort) 
+ - [Selection](#selection-sort) 
+ - [Insertion](#insertion-sort)
+ - [Quick](#quick-sort)
+ - [Comparações](#comparacoes)
+ - [Resultado](#resultado)
 &nbsp;
 
 
