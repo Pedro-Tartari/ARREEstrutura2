@@ -7,7 +7,7 @@ ________________________
  - [Selection](#selection-sort) 
  - [Insertion](#insertion-sort)
  - [Quick](#quick-sort)
- - [Comparações](#comparacoes)
+ - [Comparações](#comparações)
  - [Resultado](#resultado)
 &nbsp;
 
