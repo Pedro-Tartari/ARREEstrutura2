@@ -40,10 +40,10 @@ public static void main(String args[]){
 
 Exemplo:
 >>Array desorganizado [5,3,2,1,4]
-Com o código o programa irá selecionar o primeiro e fazer a verificação com o segundo, se for maior troca de posição, assim sucessivamente.
-[5,3,2,1,4] → [3,5,2,1,4] → [3,2,5,1,4]→ [3,2,1,5,4]→[3,2,1,4,5] 
-Dessa forma completa a primeira verificação, agora será feito em todos itens até chegar na ordem crescente. 
-No fim terá uma última verificação de validação.
+>>Com o código o programa irá selecionar o primeiro e fazer a verificação com o segundo, se for maior troca de posição, assim sucessivamente.
+>>[5,3,2,1,4] → [3,5,2,1,4] → [3,2,5,1,4]→ [3,2,1,5,4]→[3,2,1,4,5] 
+>>Dessa forma completa a primeira verificação, agora será feito em todos itens até chegar na ordem crescente. 
+>>No fim terá uma última verificação de validação.
 &nbsp;
 
 
@@ -97,13 +97,13 @@ for (i=2; i<=tam; i++){
 ```
 Exemplo:
 >>Array desorganizado [2,3,5,1,4]
-Selecionamos o menor item da sequência, que no caso é o 1.Posteriormente comparamos ele com o item da esquerda, se for menor assume a posição.
-[2,3,(5,1),4] → [2,3,1,5,4]
-Após a verificação iremos comparar o 1 com o objeto a esquerda novamente até não puder mais mover. 
-[2,(3,1),5,4] → [2,1,3,5,4] // [(2,1),3,5,4] → [1,2,3,5,4]
-Assim concluímos o loop da primeira verificação, agora faremos mais um teste buscando outro número, no caso será o 4.
-[1,2,3,(5,4)] → [1,2,3,4,5]
-No fim temos a organização do array.
+>>Selecionamos o menor item da sequência, que no caso é o 1.Posteriormente comparamos ele com o item da esquerda, se for menor assume a posição.
+>>[2,3,(5,1),4] → [2,3,1,5,4]
+>>Após a verificação iremos comparar o 1 com o objeto a esquerda novamente até não puder mais mover. 
+>>[2,(3,1),5,4] → [2,1,3,5,4] // [(2,1),3,5,4] → [1,2,3,5,4]
+>>Assim concluímos o loop da primeira verificação, agora faremos mais um teste buscando outro número, no caso será o 4.
+>>[1,2,3,(5,4)] → [1,2,3,4,5]
+>>No fim temos a organização do array.
 
 &nbsp;
 
@@ -147,9 +147,9 @@ private int partition(int arr[], int begin, int end) {
 
 Exemplo:
 >>Array desorganizado [9, 7, 5, 11, 12, 2, 3, 10, 6]
-Escolhemos o número mais a direita, posteriormente organizando menores e maiores a esquerda e direita respectivamente. 
-[5, 2, 3, 6, 12, 7, 14, 9, 10, 11]
-Agora temos dois “subconjuntos” - [(5, 2, 3), 6, (12, 7, 14, 9, 10, 11)]
+>>Escolhemos o número mais a direita, posteriormente organizando menores e maiores a esquerda e direita respectivamente. 
+>>[5, 2, 3, 6, 12, 7, 14, 9, 10, 11]
+>>Agora temos dois “subconjuntos” - [(5, 2, 3), 6, (12, 7, 14, 9, 10, 11)]
 Devemos organizá-los da mesma forma.
 [2, 3, 5] //  6 // [7, 9, 10, 11, 12, 14]
 Assim ao final temos a organização.
