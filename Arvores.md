@@ -20,7 +20,7 @@ A árvore não balanceada pode se definir de duas formas, um padrão linear como
 
   ![](https://lh6.googleusercontent.com/ZgoKlCrzuYwVegxUB4cF36QHW6D9uuQjwADRL2wypY7EECLEig3ZMpjZ3UThEn023iNYzga-jCMw3PSyi3hs4H_7FMGpwHz012jFEILw5HZL9V5ZePlLEgrrtTUAHWc6wvQyfPJf)
  
-
+##### Código 
 ```Java
 package pkg;
 
@@ -164,6 +164,7 @@ A árvore balanceada por sua vez, tem a ideia de nós iguais em todos os níveis
 
 Graças a essa forma de “montagem” seu tempo leva O(log(n)) para sua inserção, remoção e pesquisa, sendo muito mais rápido do que uma desbalanceada.
 
+##### Código 
 ```Java
 package pkg;
 public class AvlTree {  
