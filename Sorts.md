@@ -159,9 +159,6 @@ Exemplo:
 ## Comparações
 ___
 
-Dillinger is currently extended with the following plugins.
-Instructions on how to use them in your own application are linked below.
-
 #### Lista ordenada em ordem **crescente**:
 
 | Tipo | Velocidade | Comparações| Movimentos |
